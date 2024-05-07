@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body{
+    
+    background-color: black;
+    margin: 0;
+    color: white;
+    font-family: "Concert One", sans-serif;
+}
+#loading-page{
+    height: 100%;
+}
+#loading-page-header{
+    background-color: #086788;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+#navInsideHeader{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    align-content: last baseline;
+}
+#loading-page-header {
+    position: relative; 
+}
+
+.fa-moon {
+    position: absolute;
+    right: 25px;
+    bottom: 13px;
+    font-size: 1.5em;
+    transition: all 1s ease;
+}
+.fa-moon:hover{
+    color: white;
+}
+#iconsInLoadPage{
+    position: absolute;
+    color: #086788;
+    top: 35%;
+    left: 15%;
+    width: 70%;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.myicons{
+    font-size: 3em;
+    transition: all 2s ease;
+}
+.fa-envelope:hover{
+    color: white;
+    transform: scale(1.2);
+}
+.fa-instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    transform: scale(1.2);
+}
+.fa-linkedin:hover{
+    background-color: lightblue;
+    transform: scale(1.2);
+}
+.fa-github:hover{
+    color: white;
+    transform: scale(1.2);
+}
+.fa-x-twitter:hover{
+    color: white;
+    transform: scale(1.2);
+}
+#intro-content{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 15%;
+    width: 70%;
+    text-align: center;
+}
+#loading-page-hello{
+    position: relative;
+    font-size: 4rem;
+}
+#what-am-i{
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    overflow: hidden;
+    margin: 0 auto; 
+    white-space: nowrap;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+#second-page{
+    color: white;
+    position: absolute;
+    top: 125%;
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+#loading-page, #second-page, #third-page{
+    scroll-snap-align: start;
+    height: 100%;
+}
+#second-page-left-head{
+    position: relative;
+    padding-left: 10%;
+    font-size: 2.5rem;
+    width: 45%;
+}
+#second-page-left-content{
+    font-size: 1.5rem;
+    flex: 1;
+}
+#my-image{
+    width: 20%;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+#my-image img{
+    border-radius: 50%;
+    height: 400px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+#my-image img:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+#third-page{
+    top: 250%;
+    width: 90%;
+    position: absolute;
+    height: 100%;
+    margin-left: 10%;
+}
+#third-page-head h4{
+    font-size: 2.5rem;   
+}
+#third-page-head{
+    font-size: 1.2rem;
+}
+.project-body{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 250px 250px;
+    justify-content: space-evenly;
+}
+.single-project{
+    width: max-content;
+}
+.project-name-container{
+    height: 20px;
+    width: 100%;
+    background-color: #086788;
+}
+#fourth-page{
+    top: 125%;
+    width: 90%;
+    position: absolute;
+    height: 100%;
+}
+
+

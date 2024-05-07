@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+}
+.left-td{
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding: 0;
+}
+.right-td{
+    width: 70%;
+    background-color: white;
+    padding: 0;
+}
+
+.pardiv .childiv{
+    background-color: orange;
+    padding-left: 45px;
+   
+}
+.pardiv p{
+    background-color: grey;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.left-table{
+    padding-left: 45px;
+}
+.ref{
+    padding-left: 45px;   
+}
+#reference{
+    padding-left: 30px;
+}
+#education{
+    padding-left: 30px;
+}
+#header{
+    padding-left: 30px;
+    background-color: #f08b1e;
+    height: 100px;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+.lefth3{
+    padding-left: 30px;
+}
+.expbar{
+    height: 10px;
+    width: 80%;
+    background-color: #6b6a6a;
+}
+.expbarchild{
+    height: 100%;
+    width: 70%;
+    background-color: #202020;
+}
+.righthr{
+    height: 2px;
+    background-color: black;
+}
+.contact{
+    margin-left: 75px;
+}
+.rightcontainer{
+    padding-right: 20px;
+}

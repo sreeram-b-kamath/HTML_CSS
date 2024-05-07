@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: green;
+}
+h2{
+    color: white;
+}
+.href
+{
+    text-decoration: none;
+    color: white;
+}
+.topli{
+    display: inline;
+    padding-bottom: 20px;
+}
+.h3{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact_info{
+    text-align: center;
+    color: black;
+    background-color: gainsboro;
+    margin-bottom: 30px;
+}
+a{
+    padding: 10px;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact{
+    padding-left: 90px;
+}
